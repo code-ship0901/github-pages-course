@@ -30,7 +30,8 @@ fatal: Authentication failed for 'https://github.com/username/repository/'
 github_pat_11AY7DDYA0TJg09BH... (it's long)
 ```
 12. Copy this access token and put it in a safe place (don't share this since it can give anyone access to your Github)
-13. Run `git push ...` again and when it asks for a password, paste the access token you created, press Enter
+13. Run `git push ...` again and when it asks for a password, paste the access token you created. (**Note:** if you're using the Terminal in VSCode, the password textbox will appear **at the top** of VSCode)
+14. Press Enter, and `git push ...` should work.
 
 ### If using the access token did not work
 1. Try running `git remote remove origin`
