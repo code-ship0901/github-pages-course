@@ -17,7 +17,7 @@ fatal: Authentication failed for 'https://github.com/username/repository/'
 - If the above does work or no popup appears, read the troubleshooting steps below
 
 2. Instead of entering a password, we need to enter an access token
-3. To create an access token, go to your Github account in the browser
+3. To create an access token, go to your Github account in your browser
 4. Click your profile picture in the top-right, and click "Settings"
 5. On the left, scroll down and click "Developer settings"
 6. On the left, click "Personal access tokens", and click "Fine-grained tokens"
