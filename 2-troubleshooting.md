@@ -1,9 +1,9 @@
 ## Troubleshooting
 Below is a list of issues and fixes.
 
-## `cd ~/Desktop` does not work on Windows
+## `cd ~/Desktop/git-tutorial` does not work on Windows
 1. Windows introduced OneDrive, which moved the Desktop folder to a different location `~/OneDrive/Desktop`
-2. To go to the Desktop in your command line, run `cd ~/OneDrive/Desktop`
+2. To open the git-tutorial folder on the desktop, run `cd ~/OneDrive/Desktop/git-tutorial`
 
 ## Git no longer supports password when using `git push`
 1. When running `git push origin master` or `git push origin main` when entering your password, you may get this error even if your password is correct:
